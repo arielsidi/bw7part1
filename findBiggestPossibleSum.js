@@ -47,7 +47,6 @@ function findBiggestPossibleSum(list, pairs) {
     var sum = 0;
     for (let i = 0; i < list.length; i++) {
         if (!added[i]) {
-
             let elementSum = list[i];
             added[i] = true;
             if (pairs[i] !== null) {
