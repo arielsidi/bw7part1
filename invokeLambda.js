@@ -4,19 +4,12 @@ const https = require('https');
 var payload = JSON.stringify({
     "list": [
       0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "pairs": [
-      null,
-      null,
-      3,
-      2,
-      5,
-      4
+      10,
+      20,
+      -30,
+      40,
+      50,
+      -1,
     ]
   });
 
